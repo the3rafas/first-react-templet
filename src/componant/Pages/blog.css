@@ -1,0 +1,46 @@
+.date{
+    background-color: #33d4d6 ;
+    width: 6rem;
+    text-align: center;
+    height: 6rem;
+    line-height: 1;
+    padding-top: 1rem;
+    position: absolute;
+    left: 2rem;
+    font-size: 2rem;
+    display: block;
+    top: 0;
+    transform: translateY(-86%);
+    border-radius: 0.7rem;
+    color: white;
+    cursor: pointer;
+}
+.date:hover{
+    color:#33d4d6 ;
+    background-color: transparent;
+}
+.card-body h2:hover{
+    color:#33d4d6 ;
+cursor: pointer;
+}
+
+.links{
+    text-decoration: none;
+    color: #939191;
+}
+.links:hover{
+    color:#33d4d6 ;
+}
+
+
+.tags >div{
+    width: fit-content +1rem;
+    background-color: #fff;
+    border: 1px solid rgba(51, 51, 51, 0.089);
+    padding:0 .8rem ;
+}
+.tags >div:hover{
+    color: #000;
+    cursor: pointer;  
+    background-color: #33d4d6 ;
+}

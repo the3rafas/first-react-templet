@@ -1,0 +1,69 @@
+.navbar{
+    /* background-color: #040e2779 !important; */
+    z-index: 10000;
+}
+nav{
+  animation: drop 1s ease-in .3s;
+}
+
+.nav-link:hover {
+    color:#33d4d6 !important;
+}
+.Pcolor{
+    color:#33d4d6 ;
+} 
+
+@media only screen and (max-width: 989px) {
+    .navBox{
+        display: none !important;
+    }
+    
+  }
+  @media only screen and (max-width: 718px) {
+    .card{ 
+      flex: 0 0 100% ;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .navDrop{
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    background-color: #040e27c4 ;
+    margin: 6.4rem 0 0 0;
+    animation-name: drop;
+    animation-duration: 1s;
+  }
+  .navDrop ul{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    transition: 1s;
+  }
+  .navDrop ul li a{
+  color: black !important;
+  }
+
+  button[data-bs-toggle="collapse"]{
+    font-size: 2rem;
+   
+  }
+  button[data-bs-toggle="collapse"]:focus{
+    box-shadow: none;
+    border: none;
+  }
+
+
+  @keyframes drop {
+    0% {
+      transform: translateY(-100%);
+    } 
+    100% {
+      transform: translateY(0%);
+
+    }
+  }

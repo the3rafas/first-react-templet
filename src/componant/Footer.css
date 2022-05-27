@@ -1,0 +1,24 @@
+footer{
+    min-height: 25rem;
+}
+
+.mail-put{
+    width: 15rem;
+}
+.mail-put input{
+    position: relative;
+    inset: 0;
+    width: 100%;
+    padding: 1.4rem;
+    border-radius: 0.4rem;
+    height: 2rem;
+    border: 0.1rem solid #c0bbbb;
+    outline: none;
+
+}
+.mail-put button{
+    position: absolute;
+    right: 6px;
+    top: 5px;
+    border-radius: 0.4rem;
+}

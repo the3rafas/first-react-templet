@@ -1,0 +1,23 @@
+.header-about{
+    background: url(../../images/banner-about.webp) no-repeat;
+    background-position: top;
+    min-height: 450px;
+    background-size: 125rem;
+    position: relative;
+}
+
+.header-page{
+    background: url(../../images/banner-page.webp) no-repeat;
+    background-position: top;
+    min-height: 450px;
+    background-size: 125rem;
+    position: relative;
+}
+
+.form{
+    padding: 4rem;
+    border: 1px solid #8888884d;
+    width: 54%;
+    margin: 10rem auto !important;
+    box-shadow: 1px 1px 0 2px #f1f1f1;
+}
